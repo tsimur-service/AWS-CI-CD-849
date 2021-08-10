@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - tar -czvf archive-to-s3.tar.gz ./2/files-to-compress/
+      - ls -la
+artifacts:
+  files:
+    - ./*.tar.gz
