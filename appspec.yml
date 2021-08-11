@@ -2,8 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: ./archive-to-s3.tar.gz
-    destination: /webapps/Config
-hooks:
+    destination: /
   AfterInstall:
     - location: afterinstall.sh
       timeout: 10
