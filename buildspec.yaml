@@ -3,8 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - tar -czvf archive-to-s3.tar.gz ./2/files-to-compress/
-      - ls -la
+      - tar -czvf archive-to-s3.tar.gz -C 2/files-to-compress/ .
 artifacts:
   files:
     - ./*.tar.gz
+    - appspec.yml
