@@ -3,6 +3,7 @@ os: linux
 files:
   - source: ./archive-to-s3.tar.gz
     destination: /
+hooks:
   AfterInstall:
     - location: afterinstall.sh
       timeout: 10
