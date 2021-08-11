@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: ./archive-to-s3.tar.gz
-    destination: /home
+    destination: /home/ubuntu
 hooks:
   AfterInstall:
     - location: afterinstall.sh

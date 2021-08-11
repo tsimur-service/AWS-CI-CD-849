@@ -1,2 +1,2 @@
 #!/bin/bash
-tar -xf /home/archive-to-s3.tar.gz
+tar -xf /home/ubuntu/archive-to-s3.tar.gz
